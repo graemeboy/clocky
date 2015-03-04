@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEE4CA3B1AA6D8FB00616EC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4CA3A1AA6D8FB00616EC6 /* AppDelegate.swift */; };
+		EEE4CA3D1AA6D8FB00616EC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4CA3C1AA6D8FB00616EC6 /* ViewController.swift */; };
+		EEE4CA401AA6D8FB00616EC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE4CA3E1AA6D8FB00616EC6 /* Main.storyboard */; };
+		EEE4CA421AA6D8FB00616EC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE4CA411AA6D8FB00616EC6 /* Images.xcassets */; };
+		EEE4CA451AA6D8FB00616EC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEE4CA431AA6D8FB00616EC6 /* LaunchScreen.xib */; };
+		EEE4CA511AA6D8FB00616EC6 /* clockyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4CA501AA6D8FB00616EC6 /* clockyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEE4CA4B1AA6D8FB00616EC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEE4CA2D1AA6D8FB00616EC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEE4CA341AA6D8FB00616EC6;
+			remoteInfo = clocky;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEE4CA351AA6D8FB00616EC6 /* clocky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clocky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE4CA391AA6D8FB00616EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE4CA3A1AA6D8FB00616EC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEE4CA3C1AA6D8FB00616EC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEE4CA3F1AA6D8FB00616EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEE4CA411AA6D8FB00616EC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EEE4CA441AA6D8FB00616EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EEE4CA4A1AA6D8FB00616EC6 /* clockyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clockyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE4CA4F1AA6D8FB00616EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE4CA501AA6D8FB00616EC6 /* clockyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clockyTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEE4CA321AA6D8FB00616EC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE4CA471AA6D8FB00616EC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEE4CA2C1AA6D8FB00616EC6 = {
+			isa = PBXGroup;
+			children = (
+				EEE4CA371AA6D8FB00616EC6 /* clocky */,
+				EEE4CA4D1AA6D8FB00616EC6 /* clockyTests */,
+				EEE4CA361AA6D8FB00616EC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEE4CA361AA6D8FB00616EC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEE4CA351AA6D8FB00616EC6 /* clocky.app */,
+				EEE4CA4A1AA6D8FB00616EC6 /* clockyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEE4CA371AA6D8FB00616EC6 /* clocky */ = {
+			isa = PBXGroup;
+			children = (
+				EEE4CA3A1AA6D8FB00616EC6 /* AppDelegate.swift */,
+				EEE4CA3C1AA6D8FB00616EC6 /* ViewController.swift */,
+				EEE4CA3E1AA6D8FB00616EC6 /* Main.storyboard */,
+				EEE4CA411AA6D8FB00616EC6 /* Images.xcassets */,
+				EEE4CA431AA6D8FB00616EC6 /* LaunchScreen.xib */,
+				EEE4CA381AA6D8FB00616EC6 /* Supporting Files */,
+			);
+			path = clocky;
+			sourceTree = "<group>";
+		};
+		EEE4CA381AA6D8FB00616EC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEE4CA391AA6D8FB00616EC6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEE4CA4D1AA6D8FB00616EC6 /* clockyTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEE4CA501AA6D8FB00616EC6 /* clockyTests.swift */,
+				EEE4CA4E1AA6D8FB00616EC6 /* Supporting Files */,
+			);
+			path = clockyTests;
+			sourceTree = "<group>";
+		};
+		EEE4CA4E1AA6D8FB00616EC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEE4CA4F1AA6D8FB00616EC6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEE4CA341AA6D8FB00616EC6 /* clocky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE4CA541AA6D8FB00616EC6 /* Build configuration list for PBXNativeTarget "clocky" */;
+			buildPhases = (
+				EEE4CA311AA6D8FB00616EC6 /* Sources */,
+				EEE4CA321AA6D8FB00616EC6 /* Frameworks */,
+				EEE4CA331AA6D8FB00616EC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = clocky;
+			productName = clocky;
+			productReference = EEE4CA351AA6D8FB00616EC6 /* clocky.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEE4CA491AA6D8FB00616EC6 /* clockyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE4CA571AA6D8FB00616EC6 /* Build configuration list for PBXNativeTarget "clockyTests" */;
+			buildPhases = (
+				EEE4CA461AA6D8FB00616EC6 /* Sources */,
+				EEE4CA471AA6D8FB00616EC6 /* Frameworks */,
+				EEE4CA481AA6D8FB00616EC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEE4CA4C1AA6D8FB00616EC6 /* PBXTargetDependency */,
+			);
+			name = clockyTests;
+			productName = clockyTests;
+			productReference = EEE4CA4A1AA6D8FB00616EC6 /* clockyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEE4CA2D1AA6D8FB00616EC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Graeme;
+				TargetAttributes = {
+					EEE4CA341AA6D8FB00616EC6 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					EEE4CA491AA6D8FB00616EC6 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = EEE4CA341AA6D8FB00616EC6;
+					};
+				};
+			};
+			buildConfigurationList = EEE4CA301AA6D8FB00616EC6 /* Build configuration list for PBXProject "clocky" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEE4CA2C1AA6D8FB00616EC6;
+			productRefGroup = EEE4CA361AA6D8FB00616EC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEE4CA341AA6D8FB00616EC6 /* clocky */,
+				EEE4CA491AA6D8FB00616EC6 /* clockyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEE4CA331AA6D8FB00616EC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE4CA401AA6D8FB00616EC6 /* Main.storyboard in Resources */,
+				EEE4CA451AA6D8FB00616EC6 /* LaunchScreen.xib in Resources */,
+				EEE4CA421AA6D8FB00616EC6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE4CA481AA6D8FB00616EC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEE4CA311AA6D8FB00616EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE4CA3D1AA6D8FB00616EC6 /* ViewController.swift in Sources */,
+				EEE4CA3B1AA6D8FB00616EC6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE4CA461AA6D8FB00616EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE4CA511AA6D8FB00616EC6 /* clockyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEE4CA4C1AA6D8FB00616EC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEE4CA341AA6D8FB00616EC6 /* clocky */;
+			targetProxy = EEE4CA4B1AA6D8FB00616EC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEE4CA3E1AA6D8FB00616EC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEE4CA3F1AA6D8FB00616EC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEE4CA431AA6D8FB00616EC6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEE4CA441AA6D8FB00616EC6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEE4CA521AA6D8FB00616EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEE4CA531AA6D8FB00616EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEE4CA551AA6D8FB00616EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = clocky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEE4CA561AA6D8FB00616EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = clocky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EEE4CA581AA6D8FB00616EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = clockyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clocky.app/clocky";
+			};
+			name = Debug;
+		};
+		EEE4CA591AA6D8FB00616EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = clockyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clocky.app/clocky";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEE4CA301AA6D8FB00616EC6 /* Build configuration list for PBXProject "clocky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE4CA521AA6D8FB00616EC6 /* Debug */,
+				EEE4CA531AA6D8FB00616EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE4CA541AA6D8FB00616EC6 /* Build configuration list for PBXNativeTarget "clocky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE4CA551AA6D8FB00616EC6 /* Debug */,
+				EEE4CA561AA6D8FB00616EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEE4CA571AA6D8FB00616EC6 /* Build configuration list for PBXNativeTarget "clockyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE4CA581AA6D8FB00616EC6 /* Debug */,
+				EEE4CA591AA6D8FB00616EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEE4CA2D1AA6D8FB00616EC6 /* Project object */;
+}
