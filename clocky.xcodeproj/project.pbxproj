@@ -13,6 +13,8 @@
 		EEE4CA421AA6D8FB00616EC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE4CA411AA6D8FB00616EC6 /* Images.xcassets */; };
 		EEE4CA451AA6D8FB00616EC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEE4CA431AA6D8FB00616EC6 /* LaunchScreen.xib */; };
 		EEE4CA511AA6D8FB00616EC6 /* clockyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4CA501AA6D8FB00616EC6 /* clockyTests.swift */; };
+		EEE4CA5D1AA6D99D00616EC6 /* ClockLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4CA5C1AA6D99D00616EC6 /* ClockLabel.swift */; };
+		EEE4CA5F1AA6DB4C00616EC6 /* Clockface.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4CA5E1AA6DB4C00616EC6 /* Clockface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		EEE4CA4A1AA6D8FB00616EC6 /* clockyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clockyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE4CA4F1AA6D8FB00616EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEE4CA501AA6D8FB00616EC6 /* clockyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clockyTests.swift; sourceTree = "<group>"; };
+		EEE4CA5C1AA6D99D00616EC6 /* ClockLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockLabel.swift; sourceTree = "<group>"; };
+		EEE4CA5E1AA6DB4C00616EC6 /* Clockface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clockface.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				EEE4CA411AA6D8FB00616EC6 /* Images.xcassets */,
 				EEE4CA431AA6D8FB00616EC6 /* LaunchScreen.xib */,
 				EEE4CA381AA6D8FB00616EC6 /* Supporting Files */,
+				EEE4CA5C1AA6D99D00616EC6 /* ClockLabel.swift */,
+				EEE4CA5E1AA6DB4C00616EC6 /* Clockface.swift */,
 			);
 			path = clocky;
 			sourceTree = "<group>";
@@ -213,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEE4CA3D1AA6D8FB00616EC6 /* ViewController.swift in Sources */,
+				EEE4CA5F1AA6DB4C00616EC6 /* Clockface.swift in Sources */,
 				EEE4CA3B1AA6D8FB00616EC6 /* AppDelegate.swift in Sources */,
+				EEE4CA5D1AA6D99D00616EC6 /* ClockLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
